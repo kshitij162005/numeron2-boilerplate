@@ -1,2 +1,10 @@
 // Iteration 1: Making the play button in the index.html functional.
+
 // Description: When the play button is clicked the game.html page should be opened
+
+let play = document.getElementById("play-button")
+function clicked(){
+    window.location.href = "./game.html"
+
+}
+play.addEventListener('click', clicked);
